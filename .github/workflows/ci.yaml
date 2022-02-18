@@ -18,3 +18,4 @@ jobs:
           go-version: 1.15
       - uses: actions/setup-python@v2
       - uses: pre-commit/action@v2.0.0
+      - uses: wagoid/commitlint-github-action@v2
